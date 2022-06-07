@@ -137,6 +137,8 @@ int main()
     std::cout << "res1 is " << (res1.isNull() ? "null\n" : "not null\n");
     std::cout << "res2 is " << (res2.isNull() ? "null\n" : "not null\n"); 
 
+    
+
 
     return 0;
 }// res goes out of scope here, and destroys the allocated Resource for us
