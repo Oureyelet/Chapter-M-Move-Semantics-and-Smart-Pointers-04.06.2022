@@ -95,8 +95,20 @@ int main()
 
     mainres = generateResource();// this assignment will invoke the move assignment
 
+    //When are the move constructor and move assignment called?:
 
-    //read again from "d move assignment operator are simple. Instead of deep cop"
+    //The key insight behind move semantics:
 
+    //Move functions should always leave both objects in a well-defined state:
+
+    //Automatic l-values returned by value may be moved instead of copied:
+
+    //Disabling copying:
+    //see our "Auto_ptr5_is_(finally)_a_good_smart_pointer_class.cpp"
+
+    //Another example:
+    
+
+    
     return 0;
 }
