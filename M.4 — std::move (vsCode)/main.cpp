@@ -44,7 +44,12 @@ int main()
     std::cout << "x: " << x_001 << '\n';
     std::cout << "y: " << y_001 << '\n';
     
-    //Another example:
+    //Another example: see our 'another_example.cpp'
+
+    //Move functions should always leave your objects in a well-defined state:
+
+    //Where else is std::move useful?:
+    
     
 
     return 0;
