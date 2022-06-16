@@ -7,7 +7,7 @@ public:
     Resoure() { std::cout << "Created\n"; }
     ~Resoure() { std::cout << "Deleted\n"; }
 };
-
+//
 int main()
 {
     // allocate a Resource object and have it owned by std::shared_ptr
