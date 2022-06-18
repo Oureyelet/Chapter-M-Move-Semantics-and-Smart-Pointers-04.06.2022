@@ -15,6 +15,9 @@ int main()
     auto res{ std::make_shared<Resource>() };
     auto ptr1{ res };
 
+    /*
+    doSomething( std::make_shared<Something>(),  )
+    */
 
     return 0;
 }
