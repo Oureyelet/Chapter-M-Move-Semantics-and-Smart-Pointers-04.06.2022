@@ -66,7 +66,11 @@ int main()
 
     //So what is std::weak_ptr for anyway?: std::weak_ptr was designed to solve the “cyclical ownership” problem described above. 
 
-    //Using std::weak_ptr:
+    //Using std::weak_ptr: go see our std::weak_ptr.cpp please...
+
+    //Conclusion:
+
+    //Quiz Time: go see our 'Quiz Time.cpp' please
 
     
 
